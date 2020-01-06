@@ -1,0 +1,13 @@
+.idea
+.vscode
+.DS_Store
+node_modules
+build
+tmp
+styles
+*.log
+.eslintcache
+dist
+buildTemplates
+.env
+generatedLabels
