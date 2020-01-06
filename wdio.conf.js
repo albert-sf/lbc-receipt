@@ -1,4 +1,4 @@
-const LWCService = require('wdio-lwc-service');
+const LWCService = require('./scripts/wdio-lwc-service');
 
 exports.config = {
     //

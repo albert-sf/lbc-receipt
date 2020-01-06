@@ -11,7 +11,7 @@ module.exports = {
         '__wdio__',
     ],
     preset: '@lwc/jest-preset',
-    testMatch: ['**/__tests__/**/?(*.)(spec|test).js', '**/__unit__/**/?(*.)(spec|test).js'],
+    testMatch: ['**/__unit__/**/?(*.)(spec|test).js'],
     moduleNameMapper: {
         '^(c)/(.+)$': '<rootDir>/src/$1/$2/$2',
     },
