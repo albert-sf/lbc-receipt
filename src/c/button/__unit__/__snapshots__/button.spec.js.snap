@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`c-button should render 1`] = `
+<c-button
+  title="Click here"
+>
+  #shadow-root(open)
+    <button
+      title="Click here"
+    />
+</c-button>
+`;
