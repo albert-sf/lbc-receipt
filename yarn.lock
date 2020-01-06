@@ -803,16 +803,6 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^12.0.9"
 
-"@lwc/babel-plugin-component@1.1.0-beta7":
-  version "1.1.0-beta7"
-  resolved "http://npm.lwcjs.org/@lwc/babel-plugin-component/-/babel-plugin-component-1.1.0-beta7/adb6b47c9dbf14bb2d766f8af1cf7b089ccdb91b.tgz#adb6b47c9dbf14bb2d766f8af1cf7b089ccdb91b"
-  integrity sha512-drSBcicgzUfvxAkI6yGxaL9v7kySRM4myZbauGawaZmlHnEj8qwDf5IQ9Czxt7YQQpTJo7+FdMxftbzwqa/fGg==
-  dependencies:
-    "@babel/helper-module-imports" "7.0.0"
-    "@babel/plugin-proposal-class-properties" "7.1.0"
-    "@lwc/errors" "1.1.0-beta7"
-    line-column "^1.0.2"
-
 "@lwc/babel-plugin-component@1.1.1":
   version "1.1.1"
   resolved "http://npm.lwcjs.org/@lwc/babel-plugin-component/-/babel-plugin-component-1.1.1/b71a3569ff6fe6ab72513224e0c634c8ad76f050.tgz#b71a3569ff6fe6ab72513224e0c634c8ad76f050"
@@ -822,23 +812,6 @@
     "@babel/plugin-proposal-class-properties" "7.1.0"
     "@lwc/errors" "1.1.1"
     line-column "^1.0.2"
-
-"@lwc/compiler@1.1.0-beta7":
-  version "1.1.0-beta7"
-  resolved "http://npm.lwcjs.org/@lwc/compiler/-/compiler-1.1.0-beta7/0021088d29e9c0f5a1810652fff896a197ae859a.tgz#0021088d29e9c0f5a1810652fff896a197ae859a"
-  integrity sha512-NRzLbWSiND/SP54vqjWSqrFrvuHJDdvZf4qaeQyZI5agEYqrG3rBwpLfUAemQh98fywlfjpCNoZq7vjpDtExZA==
-  dependencies:
-    "@babel/core" "7.1.0"
-    "@babel/plugin-proposal-object-rest-spread" "7.0.0"
-    "@lwc/babel-plugin-component" "1.1.0-beta7"
-    "@lwc/errors" "1.1.0-beta7"
-    "@lwc/shared" "1.1.0-beta7"
-    "@lwc/style-compiler" "1.1.0-beta7"
-    "@lwc/template-compiler" "1.1.0-beta7"
-    babel-preset-compat "0.21.7"
-    rollup "^1.7.4"
-    rollup-plugin-replace "^2.1.0"
-    terser "^3.17.0"
 
 "@lwc/compiler@1.1.1":
   version "1.1.1"
@@ -857,24 +830,12 @@
     rollup-plugin-replace "^2.1.0"
     terser "^3.17.0"
 
-"@lwc/engine@1.1.0-beta7":
-  version "1.1.0-beta7"
-  resolved "http://npm.lwcjs.org/@lwc/engine/-/engine-1.1.0-beta7/d4f3e58084f1c44b75aa1319adbc547a3f877806.tgz#d4f3e58084f1c44b75aa1319adbc547a3f877806"
-  integrity sha512-iW39f3E8drNvO5J26082NPQHU5qPFjDIKFZjtw+kDFQuK8rci0bpE8Xl6pFyXu/sn1/AL+nLNzI05SLZ7V6NhQ==
-  dependencies:
-    observable-membrane "0.26.1"
-
 "@lwc/engine@1.1.1":
   version "1.1.1"
   resolved "http://npm.lwcjs.org/@lwc/engine/-/engine-1.1.1/2f0d6405a97bb5be38ff5fcb8bb8d681501a2611.tgz#2f0d6405a97bb5be38ff5fcb8bb8d681501a2611"
   integrity sha512-sjIMBj0GEQUaKISalip41nhpko6FP19zXBKhNeqFhUVL6gcT9E1B+KZCo/YFgdL4gfeGY4Gb0E3B2udpTcS/6A==
   dependencies:
     observable-membrane "0.26.1"
-
-"@lwc/errors@1.1.0-beta7":
-  version "1.1.0-beta7"
-  resolved "http://npm.lwcjs.org/@lwc/errors/-/errors-1.1.0-beta7/1ebf1085fd95211fab2189df80d53ed2415f3b07.tgz#1ebf1085fd95211fab2189df80d53ed2415f3b07"
-  integrity sha512-coT4U5P363j+kQE/quiovV+rMUDerI+wIhhOB8pp1p7Nt23ye8mpCxTNJPmqEUd1S9+NIdgf3a3OL12thJD4uw==
 
 "@lwc/errors@1.1.1":
   version "1.1.1"
@@ -885,6 +846,11 @@
   version "1.1.15"
   resolved "http://npm.lwcjs.org/@lwc/errors/-/errors-1.1.15/c02391cadef621e732091d403d1a09c23dd99546.tgz#c02391cadef621e732091d403d1a09c23dd99546"
   integrity sha512-X637QwGLy9rt5PrhtuemqBzYsNJ0w5aaxGU79kMGhRuBMpsp6oFw+rn57ehcj+kqAcblQXyDLN0feBJ9BeNpYg==
+
+"@lwc/features@1.1.1":
+  version "1.1.1"
+  resolved "http://npm.lwcjs.org/@lwc/features/-/features-1.1.1/fe56cd148612a5746703251620d89d3087f0fd23.tgz#fe56cd148612a5746703251620d89d3087f0fd23"
+  integrity sha512-QcwsNH6aYsrZ+rSTDAK6YM/B8c9I+TNM03m70KD8E874tMrs330mtZGDRB1YKc/EpwL4R1o6yNEgVNw3y6h+WA==
 
 "@lwc/jest-preset@4.3.0":
   version "4.3.0"
@@ -933,25 +899,10 @@
     "@lwc/module-resolver" "1.1.1"
     rollup-pluginutils "^2.0.1"
 
-"@lwc/shared@1.1.0-beta7":
-  version "1.1.0-beta7"
-  resolved "http://npm.lwcjs.org/@lwc/shared/-/shared-1.1.0-beta7/ad3976de2f47a2d0ea488c9045324f2f1bd6a627.tgz#ad3976de2f47a2d0ea488c9045324f2f1bd6a627"
-  integrity sha512-L5vNHMhkUOuU6sCmoUigwkg7aUKmWyBa/NLdaZwvJWjsb5nRV0MDA/1DJeJ6z60m3lHa6gdH/RVk1tmdihFIXA==
-
 "@lwc/shared@1.1.1":
   version "1.1.1"
   resolved "http://npm.lwcjs.org/@lwc/shared/-/shared-1.1.1/6bbfea6e13202ec855b381d690848c917187be50.tgz#6bbfea6e13202ec855b381d690848c917187be50"
   integrity sha512-CStOVwYxL7mfUVkaaY+J8RCXiA4VApW4se7ZFN180T7NMKjHuSL6UFuNrWyXOxWY7n2O8NIfvmFtNcH+djnF8A==
-
-"@lwc/style-compiler@1.1.0-beta7":
-  version "1.1.0-beta7"
-  resolved "http://npm.lwcjs.org/@lwc/style-compiler/-/style-compiler-1.1.0-beta7/baa69373df7e3c047d3826c7b65166028b90d6a0.tgz#baa69373df7e3c047d3826c7b65166028b90d6a0"
-  integrity sha512-+kkGoQ6ihE+xp6OmGkQFjvf7HCKpZpt94Os1xNSGkC9X7Q/cZo9e3luTgVHQIZsM7jt/LEe9lfjrIwKOIdyj9Q==
-  dependencies:
-    cssnano "~3.10.0"
-    postcss "~7.0.5"
-    postcss-selector-parser "~6.0.2"
-    postcss-value-parser "~4.0.2"
 
 "@lwc/style-compiler@1.1.1":
   version "1.1.1"
@@ -963,32 +914,10 @@
     postcss-selector-parser "~6.0.2"
     postcss-value-parser "~4.0.2"
 
-"@lwc/synthetic-shadow@1.1.0-beta7":
-  version "1.1.0-beta7"
-  resolved "http://npm.lwcjs.org/@lwc/synthetic-shadow/-/synthetic-shadow-1.1.0-beta7/b248c89b7055c449bb355fffa3c56b66c2e22aea.tgz#b248c89b7055c449bb355fffa3c56b66c2e22aea"
-  integrity sha512-DLPAdBZbVeI6Lb2eWhph7FpqPBRsakyIuEri1O86rJZLyJT3WtrxYUOJZax7L/wk0YNaAfk6LrsBilCJ6oSkwg==
-
 "@lwc/synthetic-shadow@1.1.1":
   version "1.1.1"
   resolved "http://npm.lwcjs.org/@lwc/synthetic-shadow/-/synthetic-shadow-1.1.1/633c91dc741e3d7c64b16b810e00997c8a14775d.tgz#633c91dc741e3d7c64b16b810e00997c8a14775d"
   integrity sha512-buJOn6/EFENeXqsvACbOSKOK5swKvr5TCOy0fQFUt6efKzJFKwhJUoh7wltkbmAyhYW7lQLn4d1uQaX693tPVA==
-
-"@lwc/template-compiler@1.1.0-beta7":
-  version "1.1.0-beta7"
-  resolved "http://npm.lwcjs.org/@lwc/template-compiler/-/template-compiler-1.1.0-beta7/4a29f7aa3cef81402179bd581aee9563ebb5a8bd.tgz#4a29f7aa3cef81402179bd581aee9563ebb5a8bd"
-  integrity sha512-Ev+VqFogFVIgjZvWhty8E6nNJ19ktTTgSlERgmwuDSziJTubGtygQEtaEUSaS/HDbpOfzQZPAT3NQcOUR+i+ZQ==
-  dependencies:
-    "@babel/generator" "~7.1.5"
-    "@babel/parser" "~7.1.5"
-    "@babel/template" "~7.1.2"
-    "@babel/traverse" "~7.1.5"
-    "@babel/types" "~7.1.5"
-    "@lwc/errors" "1.1.0-beta7"
-    "@lwc/shared" "1.1.0-beta7"
-    camelcase "~5.0.0"
-    esutils "^2.0.2"
-    he "^1.1.1"
-    parse5-with-errors "^4.0.1"
 
 "@lwc/template-compiler@1.1.1":
   version "1.1.1"
@@ -1006,11 +935,6 @@
     esutils "^2.0.2"
     he "^1.1.1"
     parse5-with-errors "^4.0.1"
-
-"@lwc/wire-service@1.1.0-beta7":
-  version "1.1.0-beta7"
-  resolved "http://npm.lwcjs.org/@lwc/wire-service/-/wire-service-1.1.0-beta7/7afee932099c11d3596ff856d79ad97666faecf0.tgz#7afee932099c11d3596ff856d79ad97666faecf0"
-  integrity sha512-8P5V3qIVr3Bewbyh6j9RGyMFbKDeNqxl05iLQn8OAI178NNRpagOS88KH9DjwCyHIHNW6Vep0/WgBpLuXVngDw==
 
 "@lwc/wire-service@1.1.1":
   version "1.1.1"
@@ -5329,15 +5253,16 @@ lru-cache@4.1.x, lru-cache@^4.0.1:
     pseudomap "^1.0.2"
     yallist "^2.1.2"
 
-lwc@1.1.0-beta7:
-  version "1.1.0-beta7"
-  resolved "http://npm.lwcjs.org/lwc/-/lwc-1.1.0-beta7/34f70cb852cda8c886a9b6e91838dce669599962.tgz#34f70cb852cda8c886a9b6e91838dce669599962"
-  integrity sha512-3Qg5XbYs6AJr5VxrcT4C17H265TL7KAID3AHkl0DEefW12AT0rNrEsZuhmSVtKNowispgyD2wfelNvbz+f1h2A==
+lwc@1.1.1:
+  version "1.1.1"
+  resolved "http://npm.lwcjs.org/lwc/-/lwc-1.1.1/b7bcfb7fb6b26ba4bedbdd8f30ace25b0f86122f.tgz#b7bcfb7fb6b26ba4bedbdd8f30ace25b0f86122f"
+  integrity sha512-inCLQ68sWhNpO8U4mYWEqfqDcHTh7L+xIPzPVrdHIeVhggTuGHDRgJBOsfUyKDEqs11+Xturqn1zbHQPPXWGqQ==
   dependencies:
-    "@lwc/compiler" "1.1.0-beta7"
-    "@lwc/engine" "1.1.0-beta7"
-    "@lwc/synthetic-shadow" "1.1.0-beta7"
-    "@lwc/wire-service" "1.1.0-beta7"
+    "@lwc/compiler" "1.1.1"
+    "@lwc/engine" "1.1.1"
+    "@lwc/features" "1.1.1"
+    "@lwc/synthetic-shadow" "1.1.1"
+    "@lwc/wire-service" "1.1.1"
 
 magic-string@^0.25.2, magic-string@~0.25.1:
   version "0.25.2"

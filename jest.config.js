@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
     moduleFileExtensions: ['js'],
-    resolver: path.resolve('scripts/jest/lightning-jest-resolver'),
+    resolver: path.resolve('scripts/jest/custom-resolver'),
     testPathIgnorePatterns: [
         '/node_modules/',
         '/__test-disabled__/',
