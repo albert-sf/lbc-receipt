@@ -6,14 +6,12 @@
     "repository": "albert-sf/lbc-receipt",
     "license": "MIT",
     "scripts": {
-        "test": "yarn test:jest && yarn test:karma",
+        "test": "yarn test:jest && yarn test:karma && yarn test:wdio",
         "test:jest": "jest -c jest.config.js src/ --runInBand",
         "test:karma": "karma start --single-run",
         "test:wdio": "wdio wdio.conf.js",
         "build": "rollup -c",
-        "watch": "rollup -c -w",
-        "lint": "eslint src --ext .js --max-warnings 0 --cache",
-        "format": "prettier --write '{src,scripts}/**/*.{js,json,md,html}'"
+        "watch": "rollup -c -w"
     },
     "dependencies": {
         "@salesforce-ux/design-system": "^2.10.2",
