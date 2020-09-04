@@ -5253,9 +5253,10 @@ markdown@^0.5.0:
   dependencies:
     nopt "~2.1.1"
 
-marked@^0.6.1:
-  version "0.6.1"
-  resolved "http://npm.lwcjs.org/marked/-/marked-0.6.1/a63addde477bca9613028de4b2bc3629e53a0562.tgz#a63addde477bca9613028de4b2bc3629e53a0562"
+marked@^0.7.0:
+  version "0.7.0"
+  resolved "http://npm.lwcjs.org/marked/-/marked-0.7.0/b64201f051d271b1edc10a04d1ae9b74bb8e5c0e.tgz#b64201f051d271b1edc10a04d1ae9b74bb8e5c0e"
+  integrity sha512-c+yYdCZJQrsRjTPhUx7VKkApw9bwDkNbHUKo1ovgcfDjb2kc8rLuRbIFyXL5WOEUwzSSKo3IXpph2K6DqB/KZg==
 
 math-expression-evaluator@^1.2.14:
   version "1.2.17"
